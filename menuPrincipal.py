@@ -3,8 +3,8 @@ import variable
 
 def menu():
     print("¿Qué quieres hacer?\n--------------------\n1.Variable\n2.Operaciones lógicas\n3.Realizar operación lógica")
-    opcionElegida = input()
-    elegir_opcion(opcionElegida)
+    opcion_elegida = input()
+    elegir_opcion(opcion_elegida)
 
 def elegir_opcion(opcion):
     print("Eligiendo opción...")

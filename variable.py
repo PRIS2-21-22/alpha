@@ -6,8 +6,8 @@ import menuPrincipal
 def main_variable():
     print("Cargando menú de variables...")
     print("¿Qué quieres hacer?\n--------------------\n1.Crear variable\n2.Asignar valor a variable\n3.Eliminar variable\n4.Volver atrás")
-    opcionElegida = input()
-    elegir_opcion(opcionElegida)
+    opcion_elegida = input()
+    elegir_opcion(opcion_elegida)
 
 def elegir_opcion(opcion):
     print("Eligiendo opción...")
