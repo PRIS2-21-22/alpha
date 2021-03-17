@@ -3,31 +3,31 @@ from menuPrincipal import elegirOpcion
 
 import menuPrincipal
 
-def mainVariable():
+def main_variable():
     print("Cargando menú de variables...")
     print("¿Qué quieres hacer?\n--------------------\n1.Crear variable\n2.Asignar valor a variable\n3.Eliminar variable\n4.Volver atrás")
     opcionElegida = input()
-    elegirOpcion(opcionElegida)
+    elegir_opcion(opcionElegida)
 
-def elegirOpcion(opcion):
+def elegir_opcion(opcion):
     print("Eligiendo opción...")
     if(opcion=="1"):
-        crearVariable()
+        crear_variable()
         return
     if(opcion=="2"):
-        asignarValorAVariable()
+        asignar_valor_variable()
         return
     if(opcion=="3"):
-        eliminarVariable()
+        eliminar_variable()
         return
     print("\n\nxxxxxxxxxxxxxxxxx\nOpción inválida\nxxxxxxxxxxxxxxxxx\n\n")
-    mainVariable()
+    main_variable()
 
-def crearVariable():
+def crear_variable():
     print("Ingrese el nombre de la variable")
 
-def asignarValorAVariable():
+def asignar_valor_variable():
     print("Seleccione la variable a la que le quiere asignar el valor")
 
-def eliminarVariable():
+def eliminar_variable():
     print("Indique el número de la variable a eliminar")

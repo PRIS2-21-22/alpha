@@ -4,18 +4,18 @@ import variable
 def menu():
     print("¿Qué quieres hacer?\n--------------------\n1.Variable\n2.Operaciones lógicas\n3.Realizar operación lógica")
     opcionElegida = input()
-    elegirOpcion(opcionElegida)
+    elegir_opcion(opcionElegida)
 
-def elegirOpcion(opcion):
+def elegir_opcion(opcion):
     print("Eligiendo opción...")
     if(opcion=="1"):
-        variable.mainVariable()
+        variable.main_variable()
         return
     if(opcion=="2"):
-        operacionLogica.mainOperacionLogica()
+        operacionLogica.main_operacion_logica()
         return
     if(opcion=="3"):
-        operacionLogica.realizarOperacionLogica()
+        operacionLogica.realizar_operacion_logica()
         return
     print("\n\nxxxxxxxxxxxxxxxxx\nOpción inválida\nxxxxxxxxxxxxxxxxx\n\n")
     menu()
