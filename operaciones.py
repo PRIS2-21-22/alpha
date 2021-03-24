@@ -2,7 +2,6 @@ variable1 = []
 variable2 = []
 
 def realizar_operaciones(numero):
-    tipoNumero = numero
     asignar_variables(numero)
 
 def suma():
@@ -43,11 +42,11 @@ def asignar_variables(numero):
 
 def check_value(es_un_numero):
     try:
-        check = int(es_un_numero)
+        int(es_un_numero)
         return True
     except ValueError:
         try:
-            check = float(es_un_numero)
+            float(es_un_numero)
             return True
         except ValueError:
             return False
