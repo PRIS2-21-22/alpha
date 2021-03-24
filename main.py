@@ -1,5 +1,3 @@
-import menuPrincipal
+import menu_principal
 
-variables = []
-
-menuPrincipal.menu()
+menu_principal.menu()
